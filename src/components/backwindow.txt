@@ -1,0 +1,65 @@
+   //      <div style={{ position: "absolute" }}>
+        //  <Draggable
+        //     key={id}
+        //     nodeRef={nodeRef}
+        //     handle=".window-header"
+
+        //     defaultPosition={{ x: xyPosition.x, y: xyPosition.y }}
+        //     position={xyPosition}
+        //     scale={1}
+        //     onDrag={handleDrag}
+        //     onStart={() => bringAppToFront(id,zIndex)}
+        //     onStop={() => stopDrag(id)}
+        //   >
+
+        //     <ResizableBox
+        //     width={size.width}
+        //     height={size.height}
+        //     className="bg-amber-500"
+        //     onResize={(e, { size }) => {
+        //       setSize({ width: size.width, height: size.height });
+        //     }}
+        //     handle={<span className="react-resizable-handle" />}
+        //   >
+        //       <div
+        //     style={{
+        //             zIndex: zIndex, // 被選中的在最上層
+        //           }}
+        //       ref={nodeRef}
+        //       className=" shadow-lg rounded-md border border-gray-300 bg-white absolute"
+        //     >
+        //       <div className="window-header flex items-center justify-between bg-amber-400 p-3 cursor-move rounded-t-md">
+        //         <div className="flex gap-2">
+        //           <button
+        //             className="rounded-full bg-red-500 w-5 h-5"
+        //             onClick={() => closeApp(id)}
+        //           >
+        //           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+        //               <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
+        //           </svg>
+        //           </button>
+        //           <button
+        //             className="rounded-full bg-green-500 w-5 h-5"
+        //             onClick={() => minimizeApp(id,windowOpen)}
+        //           >
+        //              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+        //               <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h14" />
+        //             </svg>
+
+        //             </button>
+        //         </div>
+        //         <span className="text-white font-bold">{name}</span>
+        //         <div style={{ width: '1.5rem' }}></div>
+        //       </div>
+
+        //       <div className="p-4 w-full bg-slate-100 h-[50vh] overflow-auto rounded-b-md">
+        //         <p>This is {name}</p>
+        //         <p>Zindex{zIndex}</p>
+        //         <p>x:{xyPosition.x} y:{xyPosition.y}</p>
+        //         {/* 可以放內容 */}
+        //       </div>
+        //     </div>
+        //   </ResizableBox>
+
+        //   </Draggable>
+        //      </div>
